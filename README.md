@@ -1,6 +1,6 @@
 # Lazy-Messenger-Bot ( Build During DSCE-CSE HACKATHON 2017, TEAM Number 43 )
 
-**Description Weblink: https://prk54.github.io/lazybotmessanger/ **
+**Description Weblink: https://prk54.github.io/lazybotmessenger/ **
 
 An Automated Messenger Bot with following cool **features**:
 1. Control YouTube just by texting bot (integrated with  **Facebook Messenger** ) using key terms like play,pause,forward,resume,mute, unmute and many more.

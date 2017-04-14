@@ -1,7 +1,7 @@
-#H Lazy-Messenger-Bot
+#Lazy-Messenger-Bot
 An Automated Messenger Bot to control YouTube just by texting bot (integrated with  FACEBOOK MESSENGER ) using key terms like play ,pause, seek-to ,forward, resume, mute, unmute and many more.
 
-#H2 Dependencies
+#H2Dependencies
 
 selenium - `pip install selenium`
 Beautiful Soup - `pip install beautifulsoup4`

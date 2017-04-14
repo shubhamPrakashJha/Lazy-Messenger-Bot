@@ -26,11 +26,13 @@ Just Shot up Facebook Messenger(or any FB client ) on **any of your devices** an
 
 ## Activate News Update Automation using Bot smartly
 
-And also getting news updates  from TIMES OF INDIA  just by texting the bot key terms like show headlines, <topic> updates.
-For automation we are using SELENIUM - A  PYTHON API to access all functionalities of the system WebDriver in an intuitive way.
-For news functionality we are using  beautiful soup library to scrap TOI news headlines Data. To automate the above tasks we are using selenium chrome drivers to interact our system with the fb messenger by parsing each command to make two way communication.
+**Run the script `python2 activateNews.py -e <BotId> -p <BotKey>` and Bot will show you the desired news feeds**
 
-## Control your Terminal through Messenger.
+Get news updates from **Times of India** just by texting the Bot with key terms as follows
+1. `show headlines`
+2. `<topic> updates`
+
+## Activate Terminal Control Automation
 
 Allows user to take full control of the terminal of their computer through Facebook's messaging service.To use the script to full extent, make sure that you keep it at the home directory. Run it like this :
 
@@ -40,3 +42,7 @@ Wait till it sets up. To make sure that it has setup, your url should be 'https:
 comands supported
 `ls`  `help` `cd` `mkdir` `rm` `gedit <file-name>` `ps` 
 
+
+# Technologies used and description
+
+For automation we are using SELENIUM - A  PYTHON API to access all functionalities of the system WebDriver in an intuitive way.For news functionality we are using  beautiful soup library to scrap TOI news headlines Data. To automate the above tasks we are using selenium chrome drivers to interact our system with the fb messenger by parsing each command to make two way communication.

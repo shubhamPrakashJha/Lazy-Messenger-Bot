@@ -24,7 +24,7 @@ Just Shot up Facebook Messenger(or any FB client ) on **any of your devices** an
 6. `mute` : Mutes the video
 7. `unmute` : Unmutes the video
 
-## Activate News Update Automation using Bot smartly
+## Activate News Update Automation using Bot smartly (pPartially Implemented )
 
 **Run the script `python2 activateNews.py -e <BotId> -p <BotKey>` and Bot will show you the desired news feeds**
 
@@ -32,12 +32,11 @@ Get news updates from **Times of India** just by texting the Bot with key terms 
 1. `show headlines`
 2. `<topic> updates`
 
-## Activate Terminal Control Automation
+## Activate Terminal Control Automation ( Yet to be Implemented )
 
-Allows user to take full control of the terminal of their computer through Facebook's messaging service.To use the script to full extent, make sure that you keep it at the home directory. Run it like this :
-
-python ~/main.py
-Wait till it sets up. To make sure that it has setup, your url should be 'https://facebook.com/messages/*your own username*.
+Allows user to take full control of the terminal of their computer through Facebook's messaging service.
+run:`python teminal.py`
+Wait till it sets up to start operation.
 
 **Commands Supported**
 `ls`  `help` `cd` `mkdir` `rm` `gedit <file-name>` `ps` 
@@ -45,4 +44,4 @@ Wait till it sets up. To make sure that it has setup, your url should be 'https:
 
 # Technologies used and description
 
-For automation we are using SELENIUM - A  PYTHON API to access all functionalities of the system WebDriver in an intuitive way.For news functionality we are using  beautiful soup library to scrap TOI news headlines Data. To automate the above tasks we are using selenium chrome drivers to interact our system with the fb messenger by parsing each command to make two way communication.
+For automation we are using **Selenium**- An Automation Python API to access all functionalities of the system WebDriver in an intuitive way.For news functionality we are using **Beautiful soup** library to scrap **Times of India** news headlines feeds.To automate the above tasks we are using **Selenium Chrome Drivers** to interact our system with the FB messenger by parsing each command to make two way communication between the Bot and FB Messenger.

@@ -1,7 +1,7 @@
-# Lazy-Messenger-Bot
-An Automated Messenger Bot with following cool features:
-1. Control YouTube just by texting bot (integrated with  FACEBOOK MESSENGER ) using key terms like play,pause,forward,resume,mute, unmute and many more.
-2. Get news updates  from TIMES OF INDIA  just by texting the bot key terms like show headlines,show Tech and many more terms      by topic.
+# Lazy-Messenger-Bot 
+An Automated Messenger Bot with following cool **features**:
+1. Control YouTube just by texting bot (integrated with  **Facebook Messenger** ) using key terms like play,pause,forward,resume,mute, unmute and many more.
+2. Get news updates  from **Times of India**  just by texting the bot key terms like show headlines,show Tech and many more terms by topic.
 3. Control your Terminal through Messenger.
 
 ## Dependencies and Usage

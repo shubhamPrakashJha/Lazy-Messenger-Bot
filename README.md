@@ -35,7 +35,7 @@ Get news updates from **Times of India** just by texting the Bot with key terms 
 1. `show headlines`
 2. `<topic> updates`
 
-## Activate Terminal Control Automation ( Yet to be Implemented )
+## Activate Terminal Control Automation ( Partialy Implemented  )
 
 Allows user to take full control of the terminal of their computer through Facebook's messaging service.
 run:`python teminal.py`

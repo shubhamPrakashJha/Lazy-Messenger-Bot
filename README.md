@@ -39,7 +39,7 @@ Allows user to take full control of the terminal of their computer through Faceb
 python ~/main.py
 Wait till it sets up. To make sure that it has setup, your url should be 'https://facebook.com/messages/*your own username*.
 
-comands supported
+**Commands Supported**
 `ls`  `help` `cd` `mkdir` `rm` `gedit <file-name>` `ps` 
 
 

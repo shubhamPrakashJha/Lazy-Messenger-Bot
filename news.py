@@ -6,16 +6,14 @@ import time
 url = "http://timesofindia.indiatimes.com/"
  
 def open_url(url):
-    return requests.get(url).text  # returns html
+    return requests.get(url).text  
  
 def get_bsoup_object(html):
-    return BeautifulSoup(html, "lxml")  # returns soup (BeautifulSoup's object)
- 
+    return BeautifulSoup(html, "lxml")
  
 def sendmessage(message):
     subprocess.Popen(['notify-send', message])
     return
- 
  
 def main():
     myhtml = open_url(url)
@@ -28,8 +26,7 @@ def main():
         time.sleep(10)
         j += 1
        
- 
- 
 while True:
     main()
+    print "News update started"
     time.sleep(3600)

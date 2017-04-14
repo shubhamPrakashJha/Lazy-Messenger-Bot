@@ -11,9 +11,11 @@ An Automated Messenger Bot with following cool features:
 3. requests - `pip install requests`
 4. subprocess - `pip install subprocess`
 
-**Run the script once `python2 main.py -e 9742798990 -p prateek123` and..Bingo!!.. done..Now Bot will do the work for you**
+## Activate YouTube Automation
 
-Just Shot up Facebook Messenger(or any FB client ) on **any of your devices** and start chatting with the bot to control YouTube by just texting bot with the following terms
+**Run the script once `python2 activateBot.py -e <BotId> -p <BotKey>` and..Bingo!!.. done..Now Bot will do the work for you**
+
+Just Shot up Facebook Messenger(or any FB client ) on **any of your devices** and start chatting with the bot to control YouTube by **just texting bot** with the following terms
 1. `play <search term>` : Returns top 5 videos from YouTube, waits for an integer response to play video
 2. `play-now <search term>` : Plays first video from search results (I'm feeling lucky)
 3. `forward <time in seconds>` : Seeks to the said time
@@ -21,6 +23,8 @@ Just Shot up Facebook Messenger(or any FB client ) on **any of your devices** an
 5. `resume` : Resumes a paused the video
 6. `mute` : Mutes the video
 7. `unmute` : Unmutes the video
+
+## Activate News Update Automation using Bot smartly
 
 And also getting news updates  from TIMES OF INDIA  just by texting the bot key terms like show headlines, <topic> updates.
 For automation we are using SELENIUM - A  PYTHON API to access all functionalities of the system WebDriver in an intuitive way.

@@ -13,13 +13,13 @@ An Automated Messenger Bot with following cool features:
 
 **Run the script once and..Bingo!!.. done..Bot will do the work for you**
 Just fire up any Facebook Messenger(or any FB client ) on **any of your devices** and start chatting with the bot to control YouTube just by texting bot with the following terms
-`play <search term>` : Returns top 5 videos from YouTube, waits for an integer response to play video
-`play-now <search term>` : Plays first video from search results (I'm feeling lucky)
-`forward <time in seconds>` : Seeks to the said time
-`pause` : Pauses the video
-`resume` : Resumes a paused the video
-`mute` : Mutes the video
-`unmute` : Unmutes the video
+1. `play <search term>` : Returns top 5 videos from YouTube, waits for an integer response to play video
+2. `play-now <search term>` : Plays first video from search results (I'm feeling lucky)
+3. `forward <time in seconds>` : Seeks to the said time
+4. `pause` : Pauses the video
+5. `resume` : Resumes a paused the video
+6. `mute` : Mutes the video
+7. `unmute` : Unmutes the video
 
 And also getting news updates  from TIMES OF INDIA  just by texting the bot key terms like show headlines, <topic> updates.
 For automation we are using SELENIUM - A  PYTHON API to access all functionalities of the system WebDriver in an intuitive way.

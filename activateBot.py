@@ -107,7 +107,7 @@ def parseMessageAndExecute(message, FBdriver, YoutubeDriver):
     elif re.search(r'^(unmute)$', message.strip()):
         YoutubeDriver.execute_script(
             "document.getElementById('movie_player').unMute();")
-    elif re.search(r'^(seek-to)\s', message.strip()):
+    elif re.search(r'^(forward)\s', message.strip()):
         time_value = split_message[1]
         YoutubeDriver.execute_script(
             "document.getElementById('movie_player').seekTo(" + time_value + ",true);")

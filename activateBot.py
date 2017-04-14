@@ -49,7 +49,7 @@ def parseMessageAndExecute(message, FBdriver, YoutubeDriver):
         results = YoutubeDriver.find_elements_by_class_name(
             'item-section')[0].find_elements_by_class_name('yt-lockup-title')
 
-        number_of_results = 5
+        number_of_results = 5 # change this to alter number of recomendation
 
         title_link_map = {}
         for result in results[:number_of_results]:

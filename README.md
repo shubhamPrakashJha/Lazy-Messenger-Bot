@@ -14,7 +14,7 @@ An Automated Messenger Bot with following cool **features**:
 3. requests - `pip install requests`
 4. subprocess - `pip install subprocess`
 
-## Activate YouTube Automation
+## Activate YouTube Automation (Implemented Demo Showed )
 
 **Run the script once `python2 activateBot.py -e <BotId> -p <BotKey>` and..Bingo!!.. done..Now Bot will do the work for you**
 
@@ -27,7 +27,7 @@ Just Shot up Facebook Messenger(or any FB client ) on **any of your devices** an
 6. `mute` : Mutes the video
 7. `unmute` : Unmutes the video
 
-## Activate News Update Automation using Bot smartly (Partially Implemented )
+## Activate News Update Automation using Bot smartly (Implemented - Demo Showed )
 
 **Run the script `python2 activateNews.py -e <BotId> -p <BotKey>` and Bot will show you the desired news feeds**
 

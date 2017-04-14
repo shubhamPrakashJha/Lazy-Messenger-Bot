@@ -6,10 +6,10 @@ An Automated Messenger Bot with following cool features:
 
 ## Dependencies and Usage
 
-selenium - `pip install selenium`
-Beautiful Soup - `pip install beautifulsoup4`
-requests - `pip install requests`
-subprocess - `pip install subprocess`
+1. selenium - `pip install selenium`
+2. Beautiful Soup - `pip install beautifulsoup4`
+3. requests - `pip install requests`
+4. subprocess - `pip install subprocess`
 
 **Run the script once and..Bingo!!.. done..Bot will do the work for you**
 Just fire up any Facebook Messenger(or any FB client ) on **any of your devices** and start chatting with the bot to control YouTube just by texting bot with the following terms

@@ -98,7 +98,7 @@ def parseMessageAndExecute(message, FBdriver, YoutubeDriver):
     elif re.search(r'^(pause)$', message.strip()):
         YoutubeDriver.execute_script(
             "document.getElementById('movie_player').pauseVideo();")
-    elif re.search(r'^(unpause)$', message.strip()):
+    elif re.search(r'^(resume)$', message.strip()):
         YoutubeDriver.execute_script(
             "document.getElementById('movie_player').playVideo();")
     elif re.search(r'^(mute)$', message.strip()):
@@ -164,7 +164,7 @@ if __name__ == '__main__':
     email = args['email']
     password = args['password']
 
-    print 'Setting Up ... Please Wait'
+    print 'Setting Up ... Please Wait..this may take time depending on your Internet speed..'
 
     chrome_opts = webdriver.ChromeOptions()
     chrome_opts.add_argument('--disable-notifications')

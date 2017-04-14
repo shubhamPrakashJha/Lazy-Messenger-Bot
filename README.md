@@ -1,4 +1,4 @@
-# Lazy-Messenger-Bot ( Build During DSCE-CSE HACKATHON 2017, TEAM )
+# Lazy-Messenger-Bot ( Build During DSCE-CSE HACKATHON 2017, TEAM Number 43 )
 
 **Description Weblink: https://prk54.github.io/lazybotmessanger/ **
 

@@ -1,4 +1,4 @@
-# Lazy-Messenger-Bot ( Build During DSCE-CSE HACKATHON 2017, TEAM Number 43 )
+# Lazy-Messenger-Bot ( Build During DSCE-CSE Hackathon 2017, TEAM Number 43 )
 
 **Corresponding Web App Deployed on Heroku: https://lazymessengerbot.herokuapp.com**
 
